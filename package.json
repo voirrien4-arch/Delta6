@@ -1,0 +1,23 @@
+{
+  "name": "delta-gold",
+  "version": "1.0.0",
+  "description": "Delta Gold - WhatsApp Bot by Mcamara (335 commandes)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.12",
+    "@hapi/boom": "^10.0.1",
+    "express": "^4.21.0",
+    "pino": "^9.4.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7",
+    "node-cache": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
